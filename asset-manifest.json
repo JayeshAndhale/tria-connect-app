@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tria-connect-app/static/css/main.3a5da5e7.css",
+    "main.js": "/tria-connect-app/static/js/main.984c1644.js",
+    "index.html": "/tria-connect-app/index.html",
+    "main.3a5da5e7.css.map": "/tria-connect-app/static/css/main.3a5da5e7.css.map",
+    "main.984c1644.js.map": "/tria-connect-app/static/js/main.984c1644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a5da5e7.css",
+    "static/js/main.984c1644.js"
+  ]
+}
