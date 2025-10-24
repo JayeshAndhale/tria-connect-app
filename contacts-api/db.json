@@ -1,7 +1,0 @@
-{
-  "contacts": [
-    { "id": 1, "name": "Ava Collins", "email": "ava.collins@example.com", "phone": "9876543210" },
-    { "id": 2, "name": "Liam Patel", "email": "liam.patel@example.com", "phone": "9823456712" },
-    { "id": 3, "name": "Sofia Kim", "email": "sofia.kim@example.com", "phone": "9812234567" }
-  ]
-}
