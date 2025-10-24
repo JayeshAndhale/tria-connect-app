@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+#TriaConnect – Contact List Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, minimal, and aesthetic **React-based contact manager** built as part of the **Tria Frontend Assignment**.  
+This project demonstrates core frontend skills, React componentization, mock API interaction, and design sense.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##Live Demo
 
-### `npm start`
+**Deployed App:** [https://jayeshandhale.github.io/tria-connect-app/](https://jayeshandhale.github.io/tria-connect-app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The app is fully hosted on **GitHub Pages** — no backend setup required.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+##Objective
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The goal of this project was to build a **single-page React web application** that can:
+1. **Display a list of contacts**
+2. **Search contacts** by name through a dynamic search bar
+3. **Add new contacts** (optional feature)
+4. *(Enhanced)* **Delete contacts**
+5. *(Enhanced)* **View contact details** in a beautiful popup modal
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Category | Technology |
+|-----------|-------------|
+| **Framework** | React (Create React App) |
+| **Language** | JavaScript (ES6+) |
+| **Styling** | Custom CSS (modern, responsive layout) |
+| **State Management** | React Hooks (`useState`, `useEffect`) |
+| **Data Handling** | Mock API simulation (no backend required) |
+| **Persistence** | Browser LocalStorage |
+| **Deployment** | GitHub Pages |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##Key Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+###Contact List
+- Displays an elegant, card-style list of all saved contacts.  
+- Loads demo contacts via a **mock API** (simulated network delay).  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+###Search
+- Real-time filtering of contacts as you type.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+###Add Contact
+- Add new contacts easily using a **popup modal** form.  
+- Data is saved to **localStorage** for persistence.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+###Delete Contact
+- Delete any contact from the list with a confirmation.  
 
-## Learn More
+###View Details
+- Click a contact to open a **glassmorphic modal** showing full details.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###Aesthetic UI
+- Clean, centered layout with soft gradients and shadows.  
+- Subtle animations for modal popups and interactions.  
+- Premium, minimal feel throughout the app.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+##Design & Implementation Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The app mimics API fetching through a **Promise-based mock function** with a `setTimeout` delay to simulate real-world data loading.
+- LocalStorage ensures data persists even after page refresh.
+- Fully responsive and mobile-friendly.
+- Simple and maintainable component structure:
